@@ -1,53 +1,16 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Your+Font:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>自我介紹網站</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .left-image, .right-content {
-            flex: 1;
-            padding: 10px;
-        }
-
-        .left-image img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 5px;
-        }
-
-        .right-content p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
+        /* 基本的CSS在外部樣式表中 */
     </style>
 </head>
 <body>
@@ -75,5 +38,9 @@
             </ul>
         </div>
     </div>
+
+    <script>
+        // 如果需要JavaScript效果，可以在這裡添加
+    </script>
 </body>
 </html>
