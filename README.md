@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Website</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Dynamic Web Page Example</title>
 </head>
 <body>
+    <h1>Dynamic Web Page Example</h1>
+    
+    <?php
+    // Connect to the MySQL database
+    $host = 'your_database_host';
+    $username = 'your_username';
+    $password = 'your_password';
+    $database = 'your_database_name';
 
-<div class="container">
-    <div class="left-image">
-        <img src="left-image.jpg" alt="左側圖片">
-    </div>
-    <div class="right-content">
-        <h2>About Me</h2>
-        <p>Your self-introduction text goes here. You can talk about your background, skills, interests, and goals.</p>
+    $connection = mysqli_connect($host, $username, $password, $database);
 
-        <h2>My Work</h2>
-        <p>Here, you can showcase your work, projects, or experiences. You can use images and text to describe them.</p>
+    if (!$connection) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
 
-        <h2>Contact Me</h2>
-        <p>If you wish to get in touch with me, please use the following methods:</p>
-        <ul>
-            <li>Email: your.email@example.com</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></li>
-            <li>Twitter: <a href="https://twitter.com/yourusername">Twitter Profile</a></li>
-        </ul>
-    </div>
-</div>
+    // Query the database to retrieve data
+    $sql = "SELECT * FROM your_table";
+    $result = mysqli_query($connection, $sql);
 
-<script>
-    $(document).ready(function() {
-        // 更改容器的背景顏色
+    if (mysqli_num_rows($result) > 0) {
+        echo "<ul>";
+        while ($row = mysqli_fetch_assoc($result)) {
+            echo "<li>" . $row['data_column'] . "</li>";
+        }
+        echo "</ul>";
+    } else {
+        echo "No data found.";
+    }
+
+    // Close the database connection
+    mysqli_close($connection);
+    ?>
+</body>
+</html>
+
         $('.container').css('background-color', '#f0f0f0');
     });
 </script>
