@@ -28,15 +28,11 @@
 </div>
 
 <script>
-    // Add jQuery functionality here
     $(document).ready(function() {
-        // Example: Change the background color of the container when the page loads
+        // 更改容器的背景顏色
         $('.container').css('background-color', '#f0f0f0');
-
-        // You can add more jQuery functionality as needed for your website.
     });
 </script>
 
 </body>
 </html>
-
