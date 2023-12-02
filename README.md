@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,7 +59,7 @@
     <section id="flavors">
         <h2>口味介紹</h2>
         <div class="flavor-card">
-            <img src="ramen1.jpg" alt="拉麵圖片">
+            <img src="ramen1.jpg" alt="豚骨拉麵圖片">
             <h3>豚骨拉麵</h3>
             <p>濃郁的豚骨湯頭，配上彈牙的拉麵，是日本最受歡迎的泡麵之一。</p>
         </div>
@@ -67,6 +67,21 @@
             <img src="ramen2.jpg" alt="泰式冬陰麵圖片">
             <h3>泰式冬陰麵</h3>
             <p>帶有酸辣風味的湯頭，搭配著香料和肉片，是泰國風味的泡麵選擇。</p>
+        </div>
+        <div class="flavor-card">
+            <img src="ramen3.jpg" alt="味增拉麵圖片">
+            <h3>味增拉麵</h3>
+            <p>富有深厚風味的味增湯頭，搭配著麵條和各種配料，是日本傳統風味的泡麵。</p>
+        </div>
+        <div class="flavor-card">
+            <img src="ramen4.jpg" alt="海鮮湯麵圖片">
+            <h3>海鮮湯麵</h3>
+            <p>新鮮海鮮的鮮味融入湯頭，清爽可口，是喜愛海鮮的人士的最愛。</p>
+        </div>
+        <div class="flavor-card">
+            <img src="ramen5.jpg" alt="韓式辣拉麵圖片">
+            <h3>韓式辣拉麵</h3>
+            <p>帶有辣味的湯頭，搭配韓式泡菜和嫩滑的拉麵，是喜愛辣味的人士的不二之選。</p>
         </div>
         <!-- 可以繼續添加其他口味的卡片 -->
     </section>
@@ -82,4 +97,3 @@
     </script>
 </body>
 </html>
-
