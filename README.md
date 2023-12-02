@@ -27,8 +27,15 @@
             background-color: #f4f4f4;
         }
 
+        #flavors {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
         .flavor-card {
-            margin-bottom: 30px;
+            width: 300px;
+            margin: 10px;
             border: 1px solid #ddd;
             padding: 15px;
             border-radius: 5px;
@@ -123,13 +130,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
-        // 如果需要添加一些動態效果，可以在這裡使用 jQuery
-        // 例如: $(".flavor-card").hover(function() { $(this).toggleClass("hover"); });
-    </script>
-</body>
-</html>
-
-
         // 如果需要添加一些動態效果，可以在這裡使用 jQuery
         // 例如: $(".flavor-card").hover(function() { $(this).toggleClass("hover"); });
     </script>
