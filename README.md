@@ -1,105 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self Introduction Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-        }
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-        .left-image, .right-content {
-            flex: 1;
-            padding: 10px;
-        }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-        .left-image img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 5px;
-        }
-
-        .slider {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .right-content p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-    </style>
+    h2 {
+      color: #333;
+    }
+  </style>
+  <title>愛泡麵</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Self Introduction Website</h1>
-    </header>
 
-    <div class="container">
-        <div class="left-image">
-            <img class="slider" src="left-image1.jpg" alt="Left Image">
-        </div>
-        <div class="right-content">
-            <h2>About Me</h2>
-            <p>Your self-introduction text goes here. You can talk about your background, skills, interests, and goals.</p>
+  <header>
+    <h1>愛泡麵 - 專屬於泡麵愛好者的天堂</h1>
+  </header>
 
-            <h2>My Work</h2>
-            <p>You can showcase your work, projects, or experiences here. You can use images and text to describe them.</p>
+  <section>
+    <h2>精選泡麵推薦</h2>
+    <img src="泡麵圖片1.jpg" alt="美味泡麵">
+    <p>在「愛泡麵」，我們定期為您推薦最新、最受歡迎的泡麵品牌，從傳統的日本拉麵到創新的韓式冷面，滿足您不同口味的需求。</p>
 
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch with me, please use the following methods:</p>
-            <ul>
-                <li>Email: your.email@example.com</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></li>
-                <li>Twitter: <a href="https://twitter.com/yourusername">Twitter Profile</a></li>
-            </ul>
-        </div>
-    </div>
+    <!-- 其他部分也按照這個格式添加 -->
+  </section>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            // Image slider
-            let images = ['left-image1.jpg', 'left-image2.jpg', 'left-image3.jpg'];
-            let currentIndex = 0;
-            let slider = $('.slider');
-
-            function changeImage() {
-                slider.fadeOut(500, function () {
-                    slider.attr('src', images[currentIndex]);
-                    slider.fadeIn(500);
-                });
-
-                currentIndex = (currentIndex + 1) % images.length;
-            }
-
-            setInterval(changeImage, 3000); // Change image every 3 seconds
-        });
-    </script>
 </body>
 </html>
