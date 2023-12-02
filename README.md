@@ -1,30 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-    header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-    }
+        header {
+            background-color: #4285f4;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
 
-    section {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5em;
+        }
 
-    img {
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #4285f4;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Our Website</h2>
+        <p>This is a sample section. Replace this with your content.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
       max-width: 100%;
       height: auto;
       margin-bottom: 20px;
