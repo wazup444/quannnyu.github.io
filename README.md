@@ -86,7 +86,7 @@
     <section id="flavors">
         <h2>口味介紹</h2>
         <div class="flavor-card">
-            <img src="ramen1.jpg" alt="豚骨拉麵圖片">
+            <img src="ramen1.jpg" alt="[豚骨拉麵圖片](https://img.pchome.com.tw/cs/items/DBAY12A9007ZA2W/000001_1689153774.jpg)">
             <h3>豚骨拉麵</h3>
             <p>濃郁的豚骨湯頭，配上彈牙的拉麵，是日本最受歡迎的泡麵之一。</p>
             <div class="rating">評分: 4.5/5</div>
