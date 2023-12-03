@@ -86,7 +86,7 @@
     <section id="flavors">
         <h2>口味介紹</h2>
         <div class="flavor-card">
-            <a href="(https://24h.pchome.com.tw/prod/DBAY12-A9007ZA2W?gclid=Cj0KCQiA67CrBhC1ARIsACKAa8RqSTVT5JMrFF0Ow4MQ0Hk_f_JgroixbftAZccXEbgrw6_EfgAjkOwaAoj1EALw_wcB)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTgIcBcxDAcdcWHK4np-VAdrL7tuFwDMo--Thaiw23LHXKAuvk1U3hvRnLV3ZPByCK-es&usqp=CAU" width="200" height="100"></a>
+            <a href="(https://24h.pchome.com.tw/prod/DBAY12-A9007ZA2W?gclid=Cj0KCQiA67CrBhC1ARIsACKAa8RqSTVT5JMrFF0Ow4MQ0Hk_f_JgroixbftAZccXEbgrw6_EfgAjkOwaAoj1EALw_wcB)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTgIcBcxDAcdcWHK4np-VAdrL7tuFwDMo--Thaiw23LHXKAuvk1U3hvRnLV3ZPByCK-es&usqp=CAU" width="200" height="200"></a>
             <h3>豚骨拉麵</h3>
             <p>濃郁的豚骨湯頭，配上彈牙的拉麵，是日本最受歡迎的泡麵之一。</p>
             <div class="rating">評分: 4.5/5</div>
